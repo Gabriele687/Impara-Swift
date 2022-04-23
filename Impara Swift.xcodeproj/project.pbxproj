@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0BF95F27EC8DF2006EF439 /* Es9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BF95E27EC8DF2006EF439 /* Es9.swift */; };
+		6F0BF96327EC8E80006EF439 /* Classe Generatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BF96227EC8E80006EF439 /* Classe Generatore.swift */; };
+		6F11E94E27C3E6E4009C7223 /* SwiftUILib.DocumentPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 6F11E94D27C3E6E4009C7223 /* SwiftUILib.DocumentPicker */; };
+		6F181AAE27C040EA00E7F287 /* Exe5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F181AAD27C040EA00E7F287 /* Exe5.swift */; };
+		6F3E8DDE27E250D0002469AE /* Es7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E8DDD27E250D0002469AE /* Es7.swift */; };
+		6F3E8DE027E250EC002469AE /* Exe7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E8DDF27E250EC002469AE /* Exe7.swift */; };
+		6F3E8DE327E25256002469AE /* Es8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E8DE227E25256002469AE /* Es8.swift */; };
+		6F3E8DE527E25264002469AE /* Exe8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E8DE427E25264002469AE /* Exe8.swift */; };
+		6F40CFC227CCEFBD00F87698 /* Classe Frazione.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40CFC127CCEFBD00F87698 /* Classe Frazione.swift */; };
+		6F40CFC427CD10A900F87698 /* Exe6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40CFC327CD10A900F87698 /* Exe6.swift */; };
+		6F40CFC627CD438600F87698 /* Es6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40CFC527CD438600F87698 /* Es6.swift */; };
+		6F4624DE27CE36BB00F1EB3A /* Calc_Button_Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4624DD27CE36BB00F1EB3A /* Calc_Button_Style.swift */; };
+		6F66172827F065D700E73DDA /* Exe9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F66172727F065D700E73DDA /* Exe9.swift */; };
 		6FAC4AA127BFDBBE0098CEA6 /* Impara_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AA027BFDBBE0098CEA6 /* Impara_SwiftApp.swift */; };
 		6FAC4AA327BFDBBE0098CEA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AA227BFDBBE0098CEA6 /* ContentView.swift */; };
 		6FAC4AA527BFDBBF0098CEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC4AA427BFDBBF0098CEA6 /* Assets.xcassets */; };
 		6FAC4AA827BFDBBF0098CEA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC4AA727BFDBBF0098CEA6 /* Preview Assets.xcassets */; };
-		6FAC4AB227BFDBBF0098CEA6 /* Impara_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AB127BFDBBF0098CEA6 /* Impara_SwiftTests.swift */; };
 		6FAC4ABC27BFDBBF0098CEA6 /* Impara_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4ABB27BFDBBF0098CEA6 /* Impara_SwiftUITests.swift */; };
 		6FAC4ABE27BFDBBF0098CEA6 /* Impara_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4ABD27BFDBBF0098CEA6 /* Impara_SwiftUITestsLaunchTests.swift */; };
+		6FAC4AD527BFDC580098CEA6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AD427BFDC580098CEA6 /* InfoView.swift */; };
+		6FAC4AD727BFDC6A0098CEA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AD627BFDC6A0098CEA6 /* HomeView.swift */; };
+		6FAC4AD927BFDC740098CEA6 /* ChiSiamoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AD827BFDC740098CEA6 /* ChiSiamoView.swift */; };
+		6FAC4AE827BFE1C80098CEA6 /* Funzione2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AE727BFE1C80098CEA6 /* Funzione2.swift */; };
+		6FAC4AEF27BFE21E0098CEA6 /* Funzione3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AEE27BFE21E0098CEA6 /* Funzione3.swift */; };
+		6FAC4AF427BFE2C40098CEA6 /* Es4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AF327BFE2C40098CEA6 /* Es4.swift */; };
+		6FAC4AF627BFE2D50098CEA6 /* Exe4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AF527BFE2D50098CEA6 /* Exe4.swift */; };
+		6FAC4AF827BFE3380098CEA6 /* Exe401.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AF727BFE3380098CEA6 /* Exe401.swift */; };
+		6FAC4AFA27BFE34C0098CEA6 /* Funzione4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AF927BFE34C0098CEA6 /* Funzione4.swift */; };
+		6FAC4AFC27BFE4750098CEA6 /* Exe3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AFB27BFE4750098CEA6 /* Exe3.swift */; };
+		6FAC4AFE27BFE4930098CEA6 /* Es3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AFD27BFE4930098CEA6 /* Es3.swift */; };
+		6FAC4B0027BFE4BA0098CEA6 /* Es2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AFF27BFE4BA0098CEA6 /* Es2.swift */; };
+		6FAC4B0227BFE4D20098CEA6 /* Exe2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4B0127BFE4D20098CEA6 /* Exe2.swift */; };
+		6FAC4B0427BFE4F30098CEA6 /* Es1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4B0327BFE4F30098CEA6 /* Es1.swift */; };
+		6FAC4B0627BFE5100098CEA6 /* Exe1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4B0527BFE5100098CEA6 /* Exe1.swift */; };
+		6FAC4B0827BFE5380098CEA6 /* Funzioni Condivise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4B0727BFE5380098CEA6 /* Funzioni Condivise.swift */; };
+		6FAC4B0C27BFE6AD0098CEA6 /* Es5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4B0B27BFE6AD0098CEA6 /* Es5.swift */; };
+		6FF793C127F5BCA500321AD9 /* Impara_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC4AB127BFDBBF0098CEA6 /* Impara_SwiftTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +63,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6FD178E027E073D1004D7903 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6F0BF95E27EC8DF2006EF439 /* Es9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es9.swift; sourceTree = "<group>"; };
+		6F0BF96227EC8E80006EF439 /* Classe Generatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classe Generatore.swift"; sourceTree = "<group>"; };
+		6F181AAD27C040EA00E7F287 /* Exe5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe5.swift; sourceTree = "<group>"; };
+		6F3E8DDD27E250D0002469AE /* Es7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es7.swift; sourceTree = "<group>"; };
+		6F3E8DDF27E250EC002469AE /* Exe7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe7.swift; sourceTree = "<group>"; };
+		6F3E8DE227E25256002469AE /* Es8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es8.swift; sourceTree = "<group>"; };
+		6F3E8DE427E25264002469AE /* Exe8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe8.swift; sourceTree = "<group>"; };
+		6F40CFC127CCEFBD00F87698 /* Classe Frazione.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classe Frazione.swift"; sourceTree = "<group>"; };
+		6F40CFC327CD10A900F87698 /* Exe6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe6.swift; sourceTree = "<group>"; };
+		6F40CFC527CD438600F87698 /* Es6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es6.swift; sourceTree = "<group>"; };
+		6F4624DD27CE36BB00F1EB3A /* Calc_Button_Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc_Button_Style.swift; sourceTree = "<group>"; };
+		6F66172727F065D700E73DDA /* Exe9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe9.swift; sourceTree = "<group>"; };
 		6FAC4A9D27BFDBBE0098CEA6 /* Impara Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Impara Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAC4AA027BFDBBE0098CEA6 /* Impara_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impara_SwiftApp.swift; sourceTree = "<group>"; };
 		6FAC4AA227BFDBBE0098CEA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +99,25 @@
 		6FAC4AB727BFDBBF0098CEA6 /* Impara SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Impara SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAC4ABB27BFDBBF0098CEA6 /* Impara_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impara_SwiftUITests.swift; sourceTree = "<group>"; };
 		6FAC4ABD27BFDBBF0098CEA6 /* Impara_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impara_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FAC4AD427BFDC580098CEA6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		6FAC4AD627BFDC6A0098CEA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6FAC4AD827BFDC740098CEA6 /* ChiSiamoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiSiamoView.swift; sourceTree = "<group>"; };
+		6FAC4AE727BFE1C80098CEA6 /* Funzione2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funzione2.swift; sourceTree = "<group>"; };
+		6FAC4AEE27BFE21E0098CEA6 /* Funzione3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funzione3.swift; sourceTree = "<group>"; };
+		6FAC4AF327BFE2C40098CEA6 /* Es4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es4.swift; sourceTree = "<group>"; };
+		6FAC4AF527BFE2D50098CEA6 /* Exe4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe4.swift; sourceTree = "<group>"; };
+		6FAC4AF727BFE3380098CEA6 /* Exe401.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe401.swift; sourceTree = "<group>"; };
+		6FAC4AF927BFE34C0098CEA6 /* Funzione4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funzione4.swift; sourceTree = "<group>"; };
+		6FAC4AFB27BFE4750098CEA6 /* Exe3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe3.swift; sourceTree = "<group>"; };
+		6FAC4AFD27BFE4930098CEA6 /* Es3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es3.swift; sourceTree = "<group>"; };
+		6FAC4AFF27BFE4BA0098CEA6 /* Es2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es2.swift; sourceTree = "<group>"; };
+		6FAC4B0127BFE4D20098CEA6 /* Exe2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe2.swift; sourceTree = "<group>"; };
+		6FAC4B0327BFE4F30098CEA6 /* Es1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es1.swift; sourceTree = "<group>"; };
+		6FAC4B0527BFE5100098CEA6 /* Exe1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe1.swift; sourceTree = "<group>"; };
+		6FAC4B0727BFE5380098CEA6 /* Funzioni Condivise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Funzioni Condivise.swift"; sourceTree = "<group>"; };
+		6FAC4B0B27BFE6AD0098CEA6 /* Es5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Es5.swift; sourceTree = "<group>"; };
+		6FD178D027E073D0004D7903 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6FD178D227E073D0004D7903 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F11E94E27C3E6E4009C7223 /* SwiftUILib.DocumentPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +146,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F0BF95D27EC8DCA006EF439 /* Genera Password */ = {
+			isa = PBXGroup;
+			children = (
+				6F0BF95E27EC8DF2006EF439 /* Es9.swift */,
+				6F66172727F065D700E73DDA /* Exe9.swift */,
+				6F0BF96227EC8E80006EF439 /* Classe Generatore.swift */,
+			);
+			path = "Genera Password";
+			sourceTree = "<group>";
+		};
+		6F3E8DDC27E250BF002469AE /* Riempi */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E8DDD27E250D0002469AE /* Es7.swift */,
+				6F3E8DDF27E250EC002469AE /* Exe7.swift */,
+			);
+			path = Riempi;
+			sourceTree = "<group>";
+		};
+		6F3E8DE127E25244002469AE /* Numero Magico */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E8DE227E25256002469AE /* Es8.swift */,
+				6F3E8DE427E25264002469AE /* Exe8.swift */,
+			);
+			path = "Numero Magico";
+			sourceTree = "<group>";
+		};
+		6F40CFC027CCEF8C00F87698 /* Calcolatrice Frazioni */ = {
+			isa = PBXGroup;
+			children = (
+				6F40CFC527CD438600F87698 /* Es6.swift */,
+				6F4624DD27CE36BB00F1EB3A /* Calc_Button_Style.swift */,
+				6F40CFC327CD10A900F87698 /* Exe6.swift */,
+				6F40CFC127CCEFBD00F87698 /* Classe Frazione.swift */,
+			);
+			path = "Calcolatrice Frazioni";
+			sourceTree = "<group>";
+		};
 		6FAC4A9427BFDBBE0098CEA6 = {
 			isa = PBXGroup;
 			children = (
 				6FAC4A9F27BFDBBE0098CEA6 /* Impara Swift */,
 				6FAC4AB027BFDBBF0098CEA6 /* Impara SwiftTests */,
 				6FAC4ABA27BFDBBF0098CEA6 /* Impara SwiftUITests */,
+				6FD178CF27E073D0004D7903 /* Frameworks */,
 				6FAC4A9E27BFDBBE0098CEA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,9 +209,19 @@
 		6FAC4A9F27BFDBBE0098CEA6 /* Impara Swift */ = {
 			isa = PBXGroup;
 			children = (
+				6FAC4B0727BFE5380098CEA6 /* Funzioni Condivise.swift */,
 				6FAC4AA027BFDBBE0098CEA6 /* Impara_SwiftApp.swift */,
-				6FAC4AA227BFDBBE0098CEA6 /* ContentView.swift */,
 				6FAC4AA427BFDBBF0098CEA6 /* Assets.xcassets */,
+				6FAC4AD327BFDC4B0098CEA6 /* View */,
+				6F0BF95D27EC8DCA006EF439 /* Genera Password */,
+				6F3E8DE127E25244002469AE /* Numero Magico */,
+				6F3E8DDC27E250BF002469AE /* Riempi */,
+				6F40CFC027CCEF8C00F87698 /* Calcolatrice Frazioni */,
+				6FAC4B0A27BFE6A10098CEA6 /* File */,
+				6FAC4AF227BFE2490098CEA6 /* Figure */,
+				6FAC4AE927BFE1E40098CEA6 /* Anno */,
+				6FAC4AE227BFE11A0098CEA6 /* Equazione */,
+				6FAC4ADB27BFE09A0098CEA6 /* Numeri Multipli */,
 				6FAC4AA627BFDBBF0098CEA6 /* Preview Content */,
 			);
 			path = "Impara Swift";
@@ -127,6 +252,75 @@
 			path = "Impara SwiftUITests";
 			sourceTree = "<group>";
 		};
+		6FAC4AD327BFDC4B0098CEA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC4AA227BFDBBE0098CEA6 /* ContentView.swift */,
+				6FAC4AD427BFDC580098CEA6 /* InfoView.swift */,
+				6FAC4AD827BFDC740098CEA6 /* ChiSiamoView.swift */,
+				6FAC4AD627BFDC6A0098CEA6 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FAC4ADB27BFE09A0098CEA6 /* Numeri Multipli */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC4B0327BFE4F30098CEA6 /* Es1.swift */,
+				6FAC4B0527BFE5100098CEA6 /* Exe1.swift */,
+			);
+			path = "Numeri Multipli";
+			sourceTree = "<group>";
+		};
+		6FAC4AE227BFE11A0098CEA6 /* Equazione */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC4AFF27BFE4BA0098CEA6 /* Es2.swift */,
+				6FAC4B0127BFE4D20098CEA6 /* Exe2.swift */,
+				6FAC4AE727BFE1C80098CEA6 /* Funzione2.swift */,
+			);
+			path = Equazione;
+			sourceTree = "<group>";
+		};
+		6FAC4AE927BFE1E40098CEA6 /* Anno */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC4AFD27BFE4930098CEA6 /* Es3.swift */,
+				6FAC4AFB27BFE4750098CEA6 /* Exe3.swift */,
+				6FAC4AEE27BFE21E0098CEA6 /* Funzione3.swift */,
+			);
+			path = Anno;
+			sourceTree = "<group>";
+		};
+		6FAC4AF227BFE2490098CEA6 /* Figure */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC4AF327BFE2C40098CEA6 /* Es4.swift */,
+				6FAC4AF527BFE2D50098CEA6 /* Exe4.swift */,
+				6FAC4AF727BFE3380098CEA6 /* Exe401.swift */,
+				6FAC4AF927BFE34C0098CEA6 /* Funzione4.swift */,
+			);
+			path = Figure;
+			sourceTree = "<group>";
+		};
+		6FAC4B0A27BFE6A10098CEA6 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC4B0B27BFE6AD0098CEA6 /* Es5.swift */,
+				6F181AAD27C040EA00E7F287 /* Exe5.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		6FD178CF27E073D0004D7903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FD178D027E073D0004D7903 /* WidgetKit.framework */,
+				6FD178D227E073D0004D7903 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +331,16 @@
 				6FAC4A9927BFDBBE0098CEA6 /* Sources */,
 				6FAC4A9A27BFDBBE0098CEA6 /* Frameworks */,
 				6FAC4A9B27BFDBBE0098CEA6 /* Resources */,
+				6FD178E027E073D1004D7903 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Impara Swift";
+			packageProductDependencies = (
+				6F11E94D27C3E6E4009C7223 /* SwiftUILib.DocumentPicker */,
+			);
 			productName = "Impara Swift";
 			productReference = 6FAC4A9D27BFDBBE0098CEA6 /* Impara Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -190,7 +388,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					6FAC4A9C27BFDBBE0098CEA6 = {
@@ -215,6 +413,10 @@
 				Base,
 			);
 			mainGroup = 6FAC4A9427BFDBBE0098CEA6;
+			packageReferences = (
+				6F11E94C27C3E6E4009C7223 /* XCRemoteSwiftPackageReference "document-picker" */,
+				6F30BE5227C9180F00A35BE9 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+			);
 			productRefGroup = 6FAC4A9E27BFDBBE0098CEA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +459,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3E8DE027E250EC002469AE /* Exe7.swift in Sources */,
+				6FAC4AF427BFE2C40098CEA6 /* Es4.swift in Sources */,
 				6FAC4AA327BFDBBE0098CEA6 /* ContentView.swift in Sources */,
+				6FAC4AF827BFE3380098CEA6 /* Exe401.swift in Sources */,
+				6FAC4AEF27BFE21E0098CEA6 /* Funzione3.swift in Sources */,
+				6FAC4AE827BFE1C80098CEA6 /* Funzione2.swift in Sources */,
+				6F3E8DDE27E250D0002469AE /* Es7.swift in Sources */,
+				6F40CFC427CD10A900F87698 /* Exe6.swift in Sources */,
+				6FAC4AD727BFDC6A0098CEA6 /* HomeView.swift in Sources */,
+				6FAC4B0227BFE4D20098CEA6 /* Exe2.swift in Sources */,
+				6F4624DE27CE36BB00F1EB3A /* Calc_Button_Style.swift in Sources */,
+				6FAC4AD527BFDC580098CEA6 /* InfoView.swift in Sources */,
+				6FAC4B0C27BFE6AD0098CEA6 /* Es5.swift in Sources */,
+				6FAC4AF627BFE2D50098CEA6 /* Exe4.swift in Sources */,
+				6FAC4B0027BFE4BA0098CEA6 /* Es2.swift in Sources */,
+				6F3E8DE527E25264002469AE /* Exe8.swift in Sources */,
+				6FAC4B0427BFE4F30098CEA6 /* Es1.swift in Sources */,
+				6FAC4AFE27BFE4930098CEA6 /* Es3.swift in Sources */,
+				6FAC4AD927BFDC740098CEA6 /* ChiSiamoView.swift in Sources */,
 				6FAC4AA127BFDBBE0098CEA6 /* Impara_SwiftApp.swift in Sources */,
+				6F0BF95F27EC8DF2006EF439 /* Es9.swift in Sources */,
+				6FAC4AFA27BFE34C0098CEA6 /* Funzione4.swift in Sources */,
+				6F40CFC227CCEFBD00F87698 /* Classe Frazione.swift in Sources */,
+				6F3E8DE327E25256002469AE /* Es8.swift in Sources */,
+				6F181AAE27C040EA00E7F287 /* Exe5.swift in Sources */,
+				6FAC4AFC27BFE4750098CEA6 /* Exe3.swift in Sources */,
+				6FAC4B0827BFE5380098CEA6 /* Funzioni Condivise.swift in Sources */,
+				6F0BF96327EC8E80006EF439 /* Classe Generatore.swift in Sources */,
+				6FAC4B0627BFE5100098CEA6 /* Exe1.swift in Sources */,
+				6F66172827F065D700E73DDA /* Exe9.swift in Sources */,
+				6F40CFC627CD438600F87698 /* Es6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FAC4AB227BFDBBF0098CEA6 /* Impara_SwiftTests.swift in Sources */,
+				6FF793C127F5BCA500321AD9 /* Impara_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +584,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -416,22 +648,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Impara Swift/Preview Content\"";
 				DEVELOPMENT_TEAM = SAXH453496;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Impara-Swift-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Impara Swift";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Impara Swift media library use";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "$ (PRODUCT_NAME)  desktop folder use";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Impara Swift documents folder use";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "$ (PRODUCT_NAME)  access to a file provide domain use";
+				INFOPLIST_KEY_NSMainNibFile = ContentView;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "Gerva.Impara-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -445,22 +687,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Impara Swift/Preview Content\"";
 				DEVELOPMENT_TEAM = SAXH453496;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Impara-Swift-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Impara Swift";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Impara Swift media library use";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "$ (PRODUCT_NAME)  desktop folder use";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Impara Swift documents folder use";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "$ (PRODUCT_NAME)  access to a file provide domain use";
+				INFOPLIST_KEY_NSMainNibFile = ContentView;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "Gerva.Impara-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -474,6 +726,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SAXH453496;
@@ -494,6 +747,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SAXH453496;
@@ -585,6 +839,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F11E94C27C3E6E4009C7223 /* XCRemoteSwiftPackageReference "document-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftuilib/document-picker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		6F30BE5227C9180F00A35BE9 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F11E94D27C3E6E4009C7223 /* SwiftUILib.DocumentPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F11E94C27C3E6E4009C7223 /* XCRemoteSwiftPackageReference "document-picker" */;
+			productName = SwiftUILib.DocumentPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6FAC4A9527BFDBBE0098CEA6 /* Project object */;
 }
