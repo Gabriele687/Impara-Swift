@@ -5,7 +5,6 @@
 //  Created by Gabriele Gervasoni on 18/02/22.
 //
 
-import Foundation
 import SwiftUI
 struct GradientButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
