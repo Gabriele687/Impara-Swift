@@ -5,7 +5,6 @@
 //  Created by Gabriele Gervasoni on 01/03/22.
 //
 
-import Foundation
 import SwiftUI
 
 struct Operator_2_Style: ButtonStyle {
