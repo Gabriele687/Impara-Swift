@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import UIKit
+
 struct HomeView: View {
     @State private var queryString = ""
     let indexs = ["", "Multipli", "Che tipo di Eq. 2°", "Anno Bisestile", "Figure", "Text File", "Calc. Frazioni", "Riempi", "Trova Numero", "Password Generator"]
