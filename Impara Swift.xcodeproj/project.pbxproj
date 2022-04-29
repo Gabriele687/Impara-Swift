@@ -214,7 +214,7 @@
 				6FAC4B0727BFE5380098CEA6 /* Funzioni Condivise.swift */,
 				6FAC4AA027BFDBBE0098CEA6 /* Impara_SwiftApp.swift */,
 				6FAC4AA427BFDBBF0098CEA6 /* Assets.xcassets */,
-				6FAC4AD327BFDC4B0098CEA6 /* View */,
+				6FAC4AD327BFDC4B0098CEA6 /* Main Views */,
 				6F0BF95D27EC8DCA006EF439 /* Genera Password */,
 				6F3E8DE127E25244002469AE /* Numero Magico */,
 				6F3E8DDC27E250BF002469AE /* Riempi */,
@@ -254,7 +254,7 @@
 			path = "Impara SwiftUITests";
 			sourceTree = "<group>";
 		};
-		6FAC4AD327BFDC4B0098CEA6 /* View */ = {
+		6FAC4AD327BFDC4B0098CEA6 /* Main Views */ = {
 			isa = PBXGroup;
 			children = (
 				6FAC4AA227BFDBBE0098CEA6 /* ContentView.swift */,
@@ -262,7 +262,7 @@
 				6FAC4AD827BFDC740098CEA6 /* ChiSiamoView.swift */,
 				6FAC4AD627BFDC6A0098CEA6 /* HomeView.swift */,
 			);
-			path = View;
+			path = "Main Views";
 			sourceTree = "<group>";
 		};
 		6FAC4ADB27BFE09A0098CEA6 /* Numeri Multipli */ = {
