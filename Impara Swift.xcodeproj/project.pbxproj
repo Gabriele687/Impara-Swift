@@ -11,6 +11,7 @@
 		6F0BF96327EC8E80006EF439 /* Classe Generatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BF96227EC8E80006EF439 /* Classe Generatore.swift */; };
 		6F11E94E27C3E6E4009C7223 /* SwiftUILib.DocumentPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 6F11E94D27C3E6E4009C7223 /* SwiftUILib.DocumentPicker */; };
 		6F181AAE27C040EA00E7F287 /* Exe5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F181AAD27C040EA00E7F287 /* Exe5.swift */; };
+		6F302AAC281C6DAA00ADE684 /* SwiftUILib.DocumentPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 6F302AAB281C6DAA00ADE684 /* SwiftUILib.DocumentPicker */; };
 		6F3E8DDE27E250D0002469AE /* Es7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E8DDD27E250D0002469AE /* Es7.swift */; };
 		6F3E8DE027E250EC002469AE /* Exe7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E8DDF27E250EC002469AE /* Exe7.swift */; };
 		6F3E8DE327E25256002469AE /* Es8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E8DE227E25256002469AE /* Es8.swift */; };
@@ -125,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F302AAC281C6DAA00ADE684 /* SwiftUILib.DocumentPicker in Frameworks */,
 				6F11E94E27C3E6E4009C7223 /* SwiftUILib.DocumentPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +342,7 @@
 			name = "Impara Swift";
 			packageProductDependencies = (
 				6F11E94D27C3E6E4009C7223 /* SwiftUILib.DocumentPicker */,
+				6F302AAB281C6DAA00ADE684 /* SwiftUILib.DocumentPicker */,
 			);
 			productName = "Impara Swift";
 			productReference = 6FAC4A9D27BFDBBE0098CEA6 /* Impara Swift.app */;
@@ -416,6 +419,7 @@
 			packageReferences = (
 				6F11E94C27C3E6E4009C7223 /* XCRemoteSwiftPackageReference "document-picker" */,
 				6F30BE5227C9180F00A35BE9 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+				6F302AAA281C6DAA00ADE684 /* XCRemoteSwiftPackageReference "document-picker" */,
 			);
 			productRefGroup = 6FAC4A9E27BFDBBE0098CEA6 /* Products */;
 			projectDirPath = "";
@@ -849,6 +853,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		6F302AAA281C6DAA00ADE684 /* XCRemoteSwiftPackageReference "document-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftuilib/document-picker";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
 		6F30BE5227C9180F00A35BE9 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
@@ -863,6 +875,11 @@
 		6F11E94D27C3E6E4009C7223 /* SwiftUILib.DocumentPicker */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6F11E94C27C3E6E4009C7223 /* XCRemoteSwiftPackageReference "document-picker" */;
+			productName = SwiftUILib.DocumentPicker;
+		};
+		6F302AAB281C6DAA00ADE684 /* SwiftUILib.DocumentPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F302AAA281C6DAA00ADE684 /* XCRemoteSwiftPackageReference "document-picker" */;
 			productName = SwiftUILib.DocumentPicker;
 		};
 /* End XCSwiftPackageProductDependency section */

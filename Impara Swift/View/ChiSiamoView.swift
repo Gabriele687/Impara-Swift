@@ -38,16 +38,16 @@ struct ChiSiamoView: View {
                 Text("School: ");Link("Olivelli Putelli",
                                       destination: URL(string: "https://www.olivelliputelli.edu.it")!)
             }.padding().frame(alignment: .leading)
+            HStack {
             Map(coordinateRegion: $region, annotationItems: places) { place in
                 MapMarker(coordinate: place.coordinate)
                     }
-            .frame(width: 300, height: 200,alignment: .center).padding()
+            }
+            .frame(height: 200).padding()
             HStack {
                 Image(systemName: "mappin.circle.fill").foregroundColor(.red).background(Color.white)
-                
                 Text("Via Ubertosa 1 Darfo Corna (25047) Bs.")
         }.padding()
-            
         }
         }
     }
@@ -56,5 +56,6 @@ struct ChiSiamoView: View {
 struct ChiSiamoView_Previews: PreviewProvider {
     static var previews: some View {
         ChiSiamoView()
+            .previewInterfaceOrientation(.landscapeRight)
     }
 }
