@@ -52,7 +52,7 @@ struct HomeView: View {
                     HomeEs(text: "Trova Numero", imageName: "Esercizio8", nextView: Es8())
                 }
                 else if id == 9 {
-                    HomeEs(text: "Password Generator", imageName: "Esercizio9", nextView: Es9())
+                    HomeEs(text: "Pass. Generator", imageName: "Esercizio9", nextView: Es9())
                 }
             }
         }
