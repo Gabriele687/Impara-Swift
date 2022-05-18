@@ -76,3 +76,13 @@ struct HomeEs<TargetView: View>: View {
         .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.gray, lineWidth: 0.5)).padding(.horizontal,10)
     }
 }
+extension UIView{
+    func rotate() {
+        let rotation : CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation.z")
+        rotation.toValue = NSNumber(value: Double.pi * 2)
+        rotation.duration = 1
+        rotation.isCumulative = true
+        rotation.repeatCount = Float.greatestFiniteMagnitude
+        self.layer.add(rotation, forKey: "rotationAnimation")
+    }
+}
