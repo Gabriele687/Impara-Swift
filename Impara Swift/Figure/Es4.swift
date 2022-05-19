@@ -290,7 +290,7 @@ func Ellisse(SemiasseMaggiore: Double, SemiasseMinore: Double, area: inout Doubl
             case "Triangolo":
                 VStack(){
                     Text("Triangolo").font(.title)
-                Text("Codice Main file:")
+                    Text("Codice Main file:")
                     .padding(.horizontal)
                     .padding(.top)
                     .font(.system(size: 15).bold())
