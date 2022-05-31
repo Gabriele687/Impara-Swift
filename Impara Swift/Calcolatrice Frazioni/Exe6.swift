@@ -109,7 +109,9 @@ struct Exe6: View {
                 return
             } else if Numeri.contains("/"){
                 Num1 = Double(den[0]) ?? 0.0
-                Den1 =  Double(den[1]) ?? 1.0
+                if den.indices.contains(1) {
+                    Den1 =  Double(den[1]) ?? 1.0
+                }
                 print(Num1)
             }else {
                 Num1 = Double(den[0]) ?? 1; Den1 = 1; print(Num1)
