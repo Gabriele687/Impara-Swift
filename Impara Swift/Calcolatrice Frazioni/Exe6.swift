@@ -17,6 +17,7 @@ struct Exe6: View {
     @State var Lista: [String] = []
     @State var List: String = ""
     @State var v: Bool = false
+    
     var body: some View {
         ScrollView{
             Text("Prova Codice").font(.title.bold()).padding()

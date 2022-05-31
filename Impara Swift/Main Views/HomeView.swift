@@ -25,6 +25,7 @@ struct HomeView: View {
                 return indexs.reversed().filter { $0.contains(queryString) }
             }
         }
+    
     func buildView(for id: Int) -> some View {
             Group {
                 if id == 1 {
