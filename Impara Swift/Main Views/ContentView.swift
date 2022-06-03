@@ -6,26 +6,27 @@
 //
 import SwiftUI
 struct ContentView: View {
-    var animation: Animation {Animation.easeOut}
+    var animation: Animation {Animation.easeIn(duration: 1)}
     @State private var isRotated = false
     @State var hide = false
     let EnterImpact = UIImpactFeedbackGenerator(style: .rigid)
     var body: some View {
         ZStack {
-            
             Image("LaunchScreenImage")
                 .onAppear() {
-                self.isRotated.toggle()
                     sleep(1)
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                        hide = true
+                        self.isRotated.toggle()
                         EnterImpact.prepare()
                         EnterImpact.impactOccurred()
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.6) {
+                        hide = true
                     }
                 }
                 .scaleEffect(isRotated ? 80 : 1)
                 .animation(animation)
-
+            
             
             if hide  {
                 TabView (selection: .constant(1)){
