@@ -9,20 +9,19 @@ struct ContentView: View {
     var animation: Animation {Animation.easeOut}
     @State private var isRotated = false
     @State var hide = false
-    let PickerImpact = UIImpactFeedbackGenerator(style: .rigid)
+    let EnterImpact = UIImpactFeedbackGenerator(style: .rigid)
     var body: some View {
         ZStack {
+            
             Image("LaunchScreenImage")
                 .onAppear() {
                 self.isRotated.toggle()
                     sleep(1)
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                         hide = true
+                        EnterImpact.prepare()
+                        EnterImpact.impactOccurred()
                     }
-                }
-                .onAppear(){
-                    PickerImpact.prepare()
-                    PickerImpact.impactOccurred()
                 }
                 .scaleEffect(isRotated ? 80 : 1)
                 .animation(animation)
