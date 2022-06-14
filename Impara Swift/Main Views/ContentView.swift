@@ -11,11 +11,12 @@ struct ContentView: View {
     @State private var isRotated1 = false
     @State var hide = false
     let EnterImpact = UIImpactFeedbackGenerator(style: .rigid)
+    let SuccessImpact = UINotificationFeedbackGenerator()
     var body: some View {
         ZStack {
             Image("LaunchScreenImage-2")
                 .onAppear() {
-                    sleep(1)
+                    sleep(2)
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                         self.isRotated.toggle()
                         EnterImpact.prepare()
@@ -27,7 +28,7 @@ struct ContentView: View {
                 }
                 .scaleEffect(isRotated ? 80 : 1)
                 .animation(animation)
-            Color.red.blendMode(.screen)
+            Color.red.blendMode(.screen).edgesIgnoringSafeArea(.all)
             
             if hide  {
                 TabView (selection: .constant(1)){
@@ -38,6 +39,8 @@ struct ContentView: View {
                     .tabItem { Text("Home"); Label("Home", systemImage: "house.fill");} .tag(1)
                     NavigationView {ChiSiamoView().navigationTitle("Chi Sono")}
                         .tabItem { Text("Chi siamo"); Label("Chi sono", systemImage: "person.circle.fill")}.tag(3)
+                }.onAppear(){
+                    SuccessImpact.notificationOccurred(.success)
                 }
             }
         }

@@ -18,9 +18,9 @@
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIImageName</key>
-		<string>LaunchScreenImage</string>
+		<string></string>
 		<key>UIImageRespectsSafeAreaInsets</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>com.apple.security.files.bookmarks.app-scope</key>
 	<string>true</string>
